@@ -1,0 +1,43 @@
+{
+  "name": "BITS Framework",
+  "version": "1.0.1",
+  "authors": [
+    "Nurul Imam <me@nurulimam.com>"
+  ],
+  "description": "BITS Backend Package Manager",
+  "main": "index.php",
+  "keywords": [
+    "bootstrap",
+    "jquery"
+  ],
+  "license": "MIT",
+  "homepage": "https://bits.co.id",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "FortAwesome/Font-Awesome#~4.4.0",
+    "animate.css": "master",
+    "toastr": "master",
+    "jquery.gritter": "master",
+    "bootstrap-fileinput": "master",
+    "select2": "4.0.0",
+    "summernote": "master",
+    "eonasdan-bootstrap-datetimepicker": "master",
+    "metisMenu": "master",
+    "pace": "master",
+    "bootstrap-validator": "master",
+    "bootstrap-switch": "master",
+    "awesome-bootstrap-checkbox": "master",
+    "bootstrap-table": "master",
+    "jquery-backstretch": "master",
+    "codemirror": "master",
+    "jquery": "~2.1.4",
+    "bootstrap": "3.3.5"
+  }
+}

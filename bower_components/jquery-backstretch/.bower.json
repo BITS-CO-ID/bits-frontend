@@ -1,0 +1,29 @@
+{
+  "name": "jquery-backstretch",
+  "description": "A simple jQuery plugin that allows you to add a dynamically-resized, slideshow-capable background image to any page or element.",
+  "homepage": "http://srobbin.com/jquery-plugins/backstretch/",
+  "author": {
+    "name": "Scott Robbin",
+    "email": "scott@robbin.co",
+    "url": "http://srobbin.com"
+  },
+  "main": [
+    "jquery.backstretch.js"
+  ],
+  "dependencies": {
+    "jquery": "~1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/srobbin/jquery-backstretch.git"
+  },
+  "_release": "241a3450dd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "241a3450ddbdf45b567a0f7d71cb35116c624f2a"
+  },
+  "_source": "git://github.com/srobbin/jquery-backstretch.git",
+  "_target": "master",
+  "_originalSource": "jquery-backstretch"
+}
