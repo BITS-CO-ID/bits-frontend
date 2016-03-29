@@ -86,7 +86,6 @@ window.SmoothlyMenu = function() {
           pickTime: false
         });
 
-
         var dateNow = new Date();
         $('#datetimepicker').datetimepicker({
             format: 'YYYY-MM-DD HH:mm:ss',
@@ -168,109 +167,41 @@ window.SmoothlyMenu = function() {
         var id       = div.data('id');
         var photo    = div.data('photo');
         var username = div.data('username');
-        var nama     = div.data('nama');
+        var name     = div.data('name');
         var email    = div.data('email');
         var telp     = div.data('telp');
-        var alamat  = div.data('alamat');
+        var address  = div.data('address');
         var modal    = $(this);
 
         modal.find('#vphoto').attr("src",photo);
         modal.find('#vusername').html(username);
-        modal.find('#vnama').html(nama);
+        modal.find('#vname').html(name);
         modal.find('#vemail').html(email);
         modal.find('#vtelp').html(telp);
-        modal.find('#valamat').html(alamat);
+        modal.find('#vaddress').html(address);
     });
 
     // Edit Link Modal
     $('.update').on('show.bs.modal', function (event) {
         var div      = $(event.relatedTarget)
         var id       = div.data('id');
-        var nama     = div.data('nama');
+        var name     = div.data('name');
 
         // Users
         var username = div.data('username');
         var email    = div.data('email');
         var telp     = div.data('telp');
-        var alamat   = div.data('alamat');
-
-        // Proyek
-        var hps      = div.data('hps');
-        var status   = div.data('status');
-
-        // Kriteria
-        var bobot    = div.data('bobot');
-        var type     = div.data('type');
-
-        // Penilaian
-        var peserta  = div.data('peserta');
-        var k1       = div.data('k1');
-        var k2       = div.data('k2');
-        var k3       = div.data('k3');
-        var k4       = div.data('k4');
-        var k5       = div.data('k5');
-        var k6       = div.data('k6');
-        var k7       = div.data('k7');
-        var k8       = div.data('k8');
-        var k9       = div.data('k9');
-        var k10      = div.data('k10');
+        var address   = div.data('address');
         var modal    = $(this);
 
         modal.find('#id').attr("value", id);
-        modal.find('#nama').attr("value", nama);
+        modal.find('#name').attr("value", name);
 
         // Users
         modal.find('#username').attr("value", username);
         modal.find('#email2').attr("value", email);
         modal.find('#telp').attr("value", telp);
-        modal.find('#alamat').attr("value", alamat);
-
-        // Proyek
-        modal.find('#hps').attr("value", hps);
-        if (status) {
-            modal.find('#status').select2("val", status);
-        };
-
-        // Kriteria
-        modal.find('#bobot').attr("value", bobot);
-        if (type) {
-            modal.find('#type').select2("val", type);
-        };
-
-        // Penilaian
-        if (peserta) {
-            modal.find('#peserta').select2("val", peserta);
-        };
-        if (k1) {
-            modal.find('#k1').select2("val", k1);
-        };
-        if (k2) {
-            modal.find('#k2').select2("val", k2);
-        };
-        if (k3) {
-            modal.find('#k3').select2("val", k3);
-        };
-        if (k4) {
-            modal.find('#k4').select2("val", k4);
-        };
-        if (k5) {
-            modal.find('#k5').select2("val", k5);
-        };
-        if (k6) {
-            modal.find('#k6').select2("val", k6);
-        };
-        if (k7) {
-            modal.find('#k7').select2("val", k7);
-        };
-        if (k8) {
-            modal.find('#k8').select2("val", k8);
-        };
-        if (k9) {
-            modal.find('#k9').select2("val", k9);
-        };
-        if (k10) {
-            modal.find('#k10').select2("val", k10);
-        };
+        modal.find('#address').attr("value", address);
     });
 
     // Delete Link Modal Confirmation
@@ -330,7 +261,7 @@ window.SmoothlyMenu = function() {
     $(function () {
         $(".select2").select2({
             theme: "bootstrap",
-            placeholder: "Silahkan Pilih...",
+            placeholder: "Please Select One...",
             allowClear: true
         });
         $.fn.modal.Constructor.prototype.enforceFocus = function() {};
