@@ -1,23 +1,15 @@
 {
-<<<<<<< HEAD
   "name": "bits-frontend",
-=======
-  "name": "BITS Framework",
->>>>>>> 1ebde902a838dc5d90ac138b27039bce97c0e9f2
   "version": "1.0.1",
   "authors": [
     "Nurul Imam <me@nurulimam.com>"
   ],
   "description": "BITS Backend Package Manager",
-<<<<<<< HEAD
   "main": [
     "css/bits.css",
     "css/custom.css",
     "js/bits.js"
   ],
-=======
-  "main": "index.php",
->>>>>>> 1ebde902a838dc5d90ac138b27039bce97c0e9f2
   "keywords": [
     "bootstrap",
     "jquery"
@@ -28,10 +20,6 @@
     "**/.*",
     "node_modules",
     "bower_components",
-<<<<<<< HEAD
-=======
-    "public/assets",
->>>>>>> 1ebde902a838dc5d90ac138b27039bce97c0e9f2
     "test",
     "tests"
   ],
@@ -52,11 +40,7 @@
     "bootstrap-table": "master",
     "jquery-backstretch": "master",
     "codemirror": "master",
-<<<<<<< HEAD
     "jquery": "#2.1.4",
-=======
-    "jquery": "~2.1.4",
->>>>>>> 1ebde902a838dc5d90ac138b27039bce97c0e9f2
     "bootstrap": "3.3.5"
   }
 }
