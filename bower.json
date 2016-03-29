@@ -23,6 +23,9 @@
     "test",
     "tests"
   ],
+  "resolutions": {
+    "jquery": "2.1.4"
+  },
   "dependencies": {
     "font-awesome": "FortAwesome/Font-Awesome#~4.4.0",
     "animate.css": "master",
