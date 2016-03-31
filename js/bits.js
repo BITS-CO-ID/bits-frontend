@@ -7,7 +7,7 @@
       "/assets/bits-frontend/img/backgrounds/5.jpg",
       "/assets/bits-frontend/img/backgrounds/6.png",
       "/assets/bits-frontend/img/backgrounds/7.jpg",
-      "/assets/bits-frontend/img/backgrounds/8.jpg",
+      //"/assets/bits-frontend/img/backgrounds/8.jpg",
       "/assets/bits-frontend/img/backgrounds/13.jpg",
       //"/assets/bits-frontend/img/backgrounds/9.gif",
       "/assets/bits-frontend/img/backgrounds/10.jpg",
