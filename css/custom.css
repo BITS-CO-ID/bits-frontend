@@ -19,6 +19,7 @@ h3 {
   background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
   background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
 }
+
 .not {
     font-family: 'Pacifico';
 }
@@ -35,7 +36,10 @@ padding: 20px;
 border-radius: 6px;
 border: 1px solid rgba(0, 0, 0, 0.1);
 background-color: #FFF;
+<<<<<<< HEAD
 opacity: 0.8;
+=======
+>>>>>>> 3d943b75ff6860cfa09b45ddc0e1c6ff970a0055
 box-shadow: 0px 0px 225px rgba(255, 255, 255, 0.55);
 }
 
